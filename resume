@@ -1,3 +1,23 @@
+Update Information:
+remove that youtube at top and add linkeding profile I will add after sometime
+
+And in experience
+my company is same as Ness digital Engineering and client is S&P global
+Here I joined as a fresher and started my work by creating dashboards in mstr(microstrategy) if you want more details about the dashboard check in this link: [CSD_Timelines_Dashboard. Strategy](https://mstr.caas.dev.spratingsvpc.com/MicroStrategy/servlet/mstrWeb) Here is the scvreenshot:
+
+and then I worked on automating the databricks job fauilres: for that you can check this code:
+C:\Users\sandeep_konjeti\repos\content-externalization-viewtotable-adaptor-databricks\notebook\system\azure_devops_incident_management.py
+C:\Users\sandeep_konjeti\repos\content-externalization-viewtotable-adaptor-databricks\notebook\system\job_monitor_for_incident_management.py
+
+and then I worked org search historical load where from various sources collect the data and load it into kafka topic
+
+And then I worked on another work that is performance improvement where before the application is loading very slow as from source daily we get many messages from kafka
+so it is taking more time when a bulk load comes it takes to much time so for that I made changes in the framework(nsr-processor-kf) and in the procedures and understanding pk and made changes on the composite pk 
+and then worked on one work where collect data from source kafka topic and load it into oracle tables from here we loaded data to another kafka topic using triggers and from there through golden gate replication it will load into kafka topic and then load into gcp bigquery tables
+
+update the resume accordingly and now histoical gsr I am working
+for all these add details in the resume that needed
+
 %-------------------------
 % Resume in Latex
 % Author : Harshibar
