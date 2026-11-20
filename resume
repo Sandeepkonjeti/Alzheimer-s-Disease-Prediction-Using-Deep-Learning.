@@ -119,3 +119,23 @@ Step 2 – Replace everything from \begin{document} to \end{document} with this
 %-------------------------------------------
 \end{document}
 
+updates step 1:
+\resumeSubheading
+{Ness Digital Engineering}{Mar. 2025 -- Present}
+{Junior Engineer - Development (Client: S\&P Global)}{Hyderabad, India}
+\resumeItemListStart
+
+\resumeItem{Reduced bulk-load time for \textbf{1M+ records from over 24 hours to 16 minutes (90x faster)} in a Java Kafka-to-Oracle service by fixing a framework bottleneck, adding missing indexes, and removing redundant PL/SQL steps.}
+
+\resumeItem{Built an event-driven \textbf{change data capture (CDC)} pipeline streaming Kafka data into Oracle and on to \textbf{Google BigQuery} via database triggers and \textbf{Oracle GoldenGate}.}
+
+\resumeItem{Developing a \textbf{historical data migration} pipeline in Databricks (PySpark) that backfills multi-year credit ratings data from multiple source systems to downstream platforms via Kafka.}
+
+\resumeItem{Built \textbf{PySpark ETL pipelines} in Databricks to consolidate organization reference data from multiple source systems and publish validated records to Kafka for downstream services.}
+
+\resumeItem{Automated production incident management for Databricks jobs across \textbf{6 environments} with a Python monitor (REST APIs) that auto-creates de-duplicated \textbf{Azure DevOps} tickets with root-cause errors.}
+
+\resumeItem{Built an operational \textbf{BI dashboard} in \textbf{MicroStrategy} tracking turnaround time, work-in-progress, and year-over-year trends across business segments, giving leadership visibility into process bottlenecks.}
+
+Also shorten the Pub/Sub project bullet so the page still fits:
+\resumeItem{Built a Spring Boot service that consumes Pub/Sub acknowledgment messages and stores audit records in Oracle.}
